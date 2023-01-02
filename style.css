@@ -1,8 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Ubuntu:wght@300&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .icons-navbar {
     padding-right: 5px;
     width: 30px;
 }
+
 .img-row {
     height: 300px;
     width: 300px;
+}
+
+.q1 {
+    opacity: 0%;
+}
+
+.q1:hover {
+    color: white;
+    opacity: 70%;
+}
+
+@media onl {}
+
+@media screen and (max-width: 576px) {
+    .card-item {
+        border-bottom: 1px solid black;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 576px) {
+
+    .card-item:nth-child(4),
+    .card-item:nth-child(1),
+    .card-item:nth-child(2),
+    .card-item:nth-child(3) {
+        border-bottom: 1px solid black;
+    }
+
+    .card-item:nth-child(2),
+    .card-item:nth-child(4),
+    .card-item:nth-child(6) {
+        border-left: 1px solid black;
+    }
+
+}
+
+@media screen and (min-width:769px) {
+
+    .card-item:nth-child(1),
+    .card-item:nth-child(2),
+    .card-item:nth-child(3) {
+        border-bottom: 1px solid black;
+    }
+
+    .card-item:nth-child(1),
+    .card-item:nth-child(2),
+    .card-item:nth-child(4),
+    .card-item:nth-child(5) {
+        border-right: 1px solid black;
+    }
+
+    .card-item:nth-child() {
+        border-left: 1px solid black;
+    }
 }
