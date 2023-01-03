@@ -16,7 +16,7 @@
 
 
         <!-- navbar -->
-        <div class="container-fluid p-2">
+        <div class="container p-2">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">Tour-giude</a>
@@ -60,7 +60,7 @@
 
 
         <!-- Let's hit the road -->
-        <div class="container-fluid p-4">
+        <div class="container p-4">
             <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
                 <div class=" col text-justify">
                     <h1>Let's hit the road</h1><br>
@@ -79,8 +79,8 @@
                     <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" width="100%" alt="#">
                 </div>
             </div>
+            <hr>
         </div>
-        <hr>
 
 
 
@@ -104,8 +104,8 @@
                     <button type="button" class="btn btn-outline-secondary">More</button>
                 </div>
             </div>
+            <hr>
         </div>
-        <hr>
 
 
 
@@ -133,12 +133,14 @@
                     </div>
                 </div>
             </div>
+            <hr>
         </div>
 
 
 
-        <!-- carousel -->
+        <!-- Gallery -->
         <div class="container">
+            <h1 class="p-5 text-center">Gallery</h1>
             <div id="carouselExampleDark" class="carousel carousel-dark slide">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -195,9 +197,12 @@
         </div>
     </div>
 
-    <div class="container text-center">
-        <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2">
 
+
+    <!-- Features -->
+    <div class="container text-center">
+        <h1 class="p-5">Features</h1>
+        <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2">
             <div class="col p-5 card-item">
                 <img src="./icons/airplane-48.png" alt="#">
                 <p><b>one</b></p>
@@ -213,9 +218,6 @@
                 <p><b>three</b></p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-
-
-
             <div class="col p-5 card-item">
                 <img src="./icons/genius-48.png" alt="#">
                 <p><b>four</b></p>
@@ -231,31 +233,79 @@
                 <p><b>six</b></p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
+        </div>
+    </div>
+
+
+    <!--     FORMS      Write to us -->
+    <form class="container text-center p-3">
+        <h1>Write to us</h1>
+        <div class="row row-cols-1 row-cols-sm-3">
+            <div class="col">
+                <div class="form-outline">
+                    <label for="name"><b>Name</b></label>
+                    <input type="text" id="form3Example1" class="form-control" />
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-outline">
+                    <label for="name"><b>Email</b></label>
+                    <input type="text" id="form3Example1" class="form-control" />
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-outline">
+                    <label for="name"><b>Fone</b></label>
+                    <input type="text" id="form3Example1" class="form-control" />
+                </div>
+            </div>
+        </div>
+        <div class="container row row-cols-1 row-cols-md-2">
+            <div class="col p-3 text-start">
+                <label for="#"><b class="p-3">Contact me via:</b></label>
+            </div>
+            <div class="col p-3 text-start">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1"><b>Email</b></label>
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1"><b>Phone</b></label> <input
+                    class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1"><b>Telegram</b></label>
+
+            </div>
+
 
         </div>
 
+        <div class="col">
+            <div class="mb-3 text-start">
+                <label for="exampleFormControlInput1" class="form-label"><b>Topic:</b></label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3 text-start">
+                <label for="exampleFormControlTextarea1" class="form-label"><b>Message:</b></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-check d-flex justify-content-between mb-4">
+                    <div>
+                        <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+                        <label class="form-check-label" for="form2Example33">
+                            Subscribe to our newsletter
+                        </label>
+                    </div>
+                    <div>
+                        <button type="button" class="border btn btn-light">SEND</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- <div class="hls_sol">
+    <!-- <div class="hls_sol">
             <ul>
                 <li>
                     <img src="https://picsum.photos/600/700/?random" alt="">
@@ -273,22 +323,14 @@
                 </li>
             </ul> -->
 
-        <hr>
 
-        <div style="width: 10%; overflow:hidden">
-            iwhbexsdjnm
-        </div>
-
-
+    <div style="width: 10%; overflow:hidden">
+        iwhbexsdjnm
     </div>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-
-
-
 </body>
 
 </html>
