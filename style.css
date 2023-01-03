@@ -67,3 +67,11 @@ body {
         border-left: 1px solid black;
     }
 }
+
+.hover-footer {
+    opacity: 60%;
+}
+
+.hover-footer:hover {
+    opacity: 100%;
+}
